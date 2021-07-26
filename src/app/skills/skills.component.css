@@ -1,0 +1,138 @@
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .skillsHeading{
+      text-align: center;
+  }
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  .skills{
+    background-color: rgb(13, 13, 14);
+    padding:15px;
+    border-radius: 20px;
+    margin-left:80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+  .bar{
+    background-color: #EEE;
+    padding: 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: #ce9e9e;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar.coding::before{
+    background-color: #8ca57e;
+  }
+  .bar.stack::before{
+    background-color: #cf9f72;
+  }
+  
+  .bar.learning::before{
+    width: calc(20% - 10px);
+  }
+  .bar.basic::before{
+    width: calc(40% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(50%);
+  }
+  .bar.intermediatePlus::before{
+    width: calc(60%);
+  }
+  .bar.advanced::before{
+    width: calc(75% );
+  }
+  .bar.expert::before{
+    width: calc(90% );
+  }
+  
+
+
+
+
+
+
+
+/* #skills{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.skills-display {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+
+.skill-progress {
+    min-width: 11rem;
+    width: auto;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin-bottom: 60px;
+    margin-right: 85px;
+    overflow: hidden;
+}
+
+
+
+.eighty-five-percent {
+    height: inherit;
+    width: 85%;
+}
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+.fifty-percent{
+    height: inherit;
+    width: 50%;
+}
+.fifty-five-percent{
+    height: inherit;
+    width: 55%;
+}
+.mb-orange {
+    background-color: #e67e22;
+} */

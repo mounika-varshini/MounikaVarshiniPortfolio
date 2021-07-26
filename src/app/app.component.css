@@ -1,0 +1,20 @@
+.navbar{
+    background-color: rgb(26, 26, 26);
+}
+.nav-item{
+    margin-right: 9px;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover,
+.nav-link:active{
+    border-bottom:1px solid white;
+}
+.navbar-toggler-icon {
+    color: white;
+    
+  }
+.nav-link:active {
+    border-bottom: 1px solid white !important;
+}

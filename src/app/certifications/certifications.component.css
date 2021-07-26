@@ -1,0 +1,42 @@
+.meals-showcase{
+    list-style: none;
+    width:100%;
+    height: auto;
+} 
+.meals-showcase li{
+    display:block;
+    float:left;
+    width:50%;
+}
+.certificate{
+    width: 100%;
+    margin:0;
+    overflow: hidden;
+    /*background-color: #000;*/
+}
+.certificate img{
+    opacity:0.7;
+    width: 500px;
+    height:350px; 
+    transform: scale(1.15);
+    transition: transform 0.5s,opacity 0.5s;
+    
+   
+}
+.certificate img:hover{
+    opacity:1;
+    transform: scale(1.03);
+}
+.certifications{
+    background-color: rgb(26, 26, 26);
+    padding: 10px;
+    border-radius: 20px;
+    margin-left:80px;
+    margin-right: 80px;
+  
+  }
+.certificateHeading{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}

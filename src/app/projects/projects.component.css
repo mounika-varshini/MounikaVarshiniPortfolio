@@ -1,0 +1,22 @@
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.card{
+    margin-right: 12px;
+    margin-left:12px;
+}
+.projects{
+    background-color: rgb(26, 26, 26);
+    padding: 20px;
+    border-radius: 20px;
+    margin-left:40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.projectsHeading{
+    margin-top: 100px;
+    text-align: center;
+}
