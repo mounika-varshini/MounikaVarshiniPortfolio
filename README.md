@@ -1,4 +1,4 @@
-# MounikaVarshini My portfolio website
+# MounikaVarshini An Angular11 application which I built to showcase all  my professional information in detail.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
